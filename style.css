@@ -73,7 +73,6 @@ background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, F
   #ph{
     width: 400px;
     justify-content: start;
-    align-items: center;
     float: left;
     margin-right: 14px;
     
@@ -84,10 +83,11 @@ background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, F
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    padding: 1rem;
+    padding: 14px;
     background: #808080;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
   }
   h1{
@@ -99,5 +99,7 @@ p{
     color: rgb(16, 16, 16);
     text-align: justify;
 }
+
+
 
   
