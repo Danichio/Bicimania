@@ -6,13 +6,14 @@ body{
    color: #ffffff;
    background-attachment: fixed;
    background-size: cover;
-
+   font-family: 'Schibsted Grotesk', sans-serif;
    
 }
 
 
 .container{
     padding-block-start: 25px;
+    font-family: 'Schibsted Grotesk', sans-serif;
 
 }
 .card{
@@ -21,6 +22,7 @@ body{
     background: #808080;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Schibsted Grotesk', sans-serif;
 
 }
 
@@ -28,6 +30,7 @@ background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, F
 .row{
     display: flex;
     justify-content: center;
+    font-family: 'Schibsted Grotesk', sans-serif;
     
 }
 
@@ -93,13 +96,14 @@ background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, F
   h1{
     color: rgb(16, 16, 16);
     text-align: center;
-}
+    font-family: 'Schibsted Grotesk', sans-serif;
+  }
 p{
     flex-wrap: wrap;
     color: rgb(16, 16, 16);
     text-align: justify;
+    font-family: 'Schibsted Grotesk', sans-serif;
 }
-
 
 
   
