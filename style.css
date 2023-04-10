@@ -9,12 +9,7 @@ body{
 
    
 }
-p, h1{
-    color: rgb(14, 6, 245);
-}
-p{
-    flex-wrap: wrap;
-}
+
 
 .container{
     padding-block-start: 25px;
@@ -71,16 +66,38 @@ background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, F
     margin: 10px auto 0;
     
   }
-   .cajaflex{
-    display: flex;
-    flex-direction: column; 
-    background: #808080;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   }
+
+  /* quienessomos */
+
+   
   #ph{
     width: 400px;
     justify-content: start;
     align-items: center;
+    float: left;
+    margin-right: 14px;
+    
   }
+  .info1{
+    display: flex;
+    column-gap: 14px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 1rem;
+    background: #808080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  h1{
+    color: rgb(16, 16, 16);
+    text-align: center;
+}
+p{
+    flex-wrap: wrap;
+    color: rgb(16, 16, 16);
+    text-align: justify;
+}
+
   
