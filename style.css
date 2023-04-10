@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(202, 245, 194);
+   font-family: Arial, sans-serif;
+   background-image: url(Imagenes/giro2.jpg);
+   background-repeat: no-repeat;
+   color: #ffffff;
+   background-attachment: fixed;
+   background-size: cover;
+
+   
+}
+p, h1{
+    color: rgb(14, 6, 245);
+}
+p{
+    flex-wrap: wrap;
+}
+
+.container{
+    padding-block-start: 25px;
+
+}
+.card{
+    margin: 30px 15px 30px 15px;
+    border-radius: 5%;
+    background: #808080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+   
+.row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn{
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+/* formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;  
+    border: 1px solid #ccc; 
+    background-color: rgb(186, 197, 229);
+    border-radius: 5%;
+    color: black;
+    background: #808080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  label, input, select, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    width: auto;
+    margin: 10px auto 0;
+    
+  }
+   .cajaflex{
+    display: flex;
+    flex-direction: column; 
+    background: #808080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+  #ph{
+    width: 400px;
+    justify-content: start;
+    align-items: center;
+  }
+  
