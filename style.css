@@ -105,5 +105,10 @@ p{
     font-family: 'Schibsted Grotesk', sans-serif;
 }
 
+/* carrusel */
+.carousel-item{
+  align-items: center;
+}
+
 
   
