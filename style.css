@@ -80,17 +80,26 @@ background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, F
     margin-right: 14px;
     
   }
-  .info1{
-    display: flex;
-    column-gap: 14px;
+
+  section{
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 14px;
+    background: #808080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+  }
+  .info1{
+    display: flex;
+    column-gap: 14px;
     padding: 14px;
     background: #808080;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 
   }
   h1{
@@ -106,9 +115,8 @@ p{
 }
 
 /* carrusel */
-.carousel-item{
-  align-items: center;
-}
+
+
 
 
   
