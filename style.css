@@ -113,6 +113,50 @@ p{
     text-align: justify;
     font-family: 'Schibsted Grotesk', sans-serif;
 }
+.main-article{
+  background: #808080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+footer{
+  min-height: 150px;
+  background-color: rgb(26, 25, 25);
+  padding: 20px;
+}
+footer p{
+  color: aliceblue;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  font-size: 1rem;
+}
+footer a{
+  width: 50px;
+  color: aliceblue;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid aliceblue;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+
+}
+
+nav i{
+font-size: 1.5rem;
+width: 25px;
+color: aliceblue;
+display: flex;
+}
+
+footer i{
+  color: aliceblue;
+ font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
 
 /* carrusel */
 
