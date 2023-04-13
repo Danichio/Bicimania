@@ -149,7 +149,6 @@ footer a{
   margin: 10px;
   border: 2px solid aliceblue;
   border-radius: 50%;
-  transition: all 0.2s ease-in;
 
 }
 
@@ -158,7 +157,7 @@ footer a{
 footer i{
   color: aliceblue;
  font-size: 1.5rem;
-  transition: all 0.2s ease-in;
+ 
 }
 .modal-body{
   color: black;
