@@ -10,6 +10,12 @@ body{
    
 }
 
+nav i{
+  font-size: 1.5rem;
+  width: 25px;
+  color: aliceblue;
+  display: flex;
+  }
 
 .container{
     padding-block-start: 25px;
@@ -147,12 +153,7 @@ footer a{
 
 }
 
-nav i{
-font-size: 1.5rem;
-width: 25px;
-color: aliceblue;
-display: flex;
-}
+
 
 footer i{
   color: aliceblue;
