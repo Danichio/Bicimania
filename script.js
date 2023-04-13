@@ -49,4 +49,5 @@ function capturadatos (e){
     const model=document.getElementById("modelo");
     const medida=document.getElementById("mensaje");
     console.log (name?.value, mail?.value, model?.value, medida?.value);
+    form.reset();
 }
