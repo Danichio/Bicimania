@@ -7,8 +7,7 @@ body{
    background-attachment: fixed;
    background-size: cover;
    font-family: 'Schibsted Grotesk', sans-serif;
-   
-}
+  }
 
 nav i{
   font-size: 1.5rem;
@@ -121,12 +120,7 @@ p{
     text-align: justify;
     font-family: 'Schibsted Grotesk', sans-serif;
 }
-.main-article{
-  background: #808080;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
 
 footer{
   min-height: 150px;
